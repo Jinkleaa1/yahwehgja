@@ -266,23 +266,10 @@ include_once("db_connect.php");
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 
 <div class="container">
-	<h2>link videos download </h2>	
-	<form class="form-download" method="get" id="download" action="you1122.000webhostapp.com/templatemo_411_dragonfruit/templatemo_411_dragonfruit/getvideo.php">
-		<input type="text" name="videoid" style="height:30px" id="videoid" size="40" placeholder="Video ID" />
-		<input class="btn btn-primary" style="background:#3399ff;height:30px;color:white" type="submit" name="type" id="type"value="Download" />
-		<p>PUT VIDEO URL</p>
+	
+		<input class="btn btn-primary" style="background:#3399ff;height:30px;color:white" type="submit" name="type" id="type"value="OPEN YOUTUBE" />
+		<p>OPEN</p>
 		<p>Example: http://www.youtube.com/watch?v=<b>Wp-Dm-Swfeg</b></p>
-		<?PHP
-		include_once('config.php');
-		function is_chrome(){
-			$agent=$_SERVER['HTTP_USER_AGENT'];
-			if( preg_match("/like\sGecko\)\sChrome\//", $agent) ){	// if user agent is google chrome
-				if(!strstr($agent, 'Iron')) // but not Iron
-					return true;
-			}
-			return false;	// if isn't chrome return false
-		}
-		?>
 <div id="templatemo_timeline" class="container_wapper">
     <h1>SOCIAL- MEDIA</h1>
 
